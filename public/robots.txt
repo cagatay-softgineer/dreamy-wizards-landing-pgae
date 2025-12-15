@@ -1,0 +1,9 @@
+# Robots.txt for Dreamy Wizards
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://dreamywizards.com/sitemap.xml
+
+# Disallow admin or private pages if any
+Disallow: /api/
