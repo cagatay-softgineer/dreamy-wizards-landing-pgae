@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "npm run build",
-    "dev": "npm run dev",
-    "lint": "eslint .",
+    "dev": "next dev",
+    "build": "next build",
     "start": "next start",
-    "deploy": "npm run deploy"
+    "lint": "next lint",
+    "deploy": "echo \"No deploy step (handled by platform)\""
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
